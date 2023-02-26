@@ -5,7 +5,7 @@
 ## デプロイサンプル
 
 - [ポケモン検索サイト](https://aobaiwaki-pokemondict.deno.dev/)
-  - pokemon numberまたは、名前(英語)で入力するとポケモンID、名前(英語)、画像が表示されます。
+  - pokemon numberまたは名前(英語)で入力するとポケモンID、名前(英語)、画像が表示されます。
 
 ## ローカル実行手順
 
