@@ -4,7 +4,7 @@
 
 ## デプロイサンプル
 
-- [デプロイページ - Deno]()
+- [デプロイページ - Deno](https://aobaiwaki-pokemondict.deno.dev/)
 
 ## ローカル実行手順
 
