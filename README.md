@@ -4,14 +4,15 @@
 
 ## デプロイサンプル
 
-- [デプロイページ - Deno](https://aobaiwaki-pokemondict.deno.dev/)
+- [ポケモン検索サイト](https://aobaiwaki-pokemondict.deno.dev/)
+  - pokemon numberまたは、名前(英語)で入力するとポケモンID、名前(英語)、画像が表示されます。
 
 ## ローカル実行手順
 
 - 以下の3ステップでローカルホストにデプロイできます。
 
 ```bash
-$ git clone
+$ git clone https://github.com/AobaIwaki-py/Pokemon-Dictionary.git
 $ cd Pokemon-Dictionary
 $ deno run --allow-read --allow-net --watch server.js
 ```
@@ -19,7 +20,7 @@ $ deno run --allow-read --allow-net --watch server.js
 ## 参考
 
 - [Deno入門 \~インストールからデプロイまで\~](https://zenn.dev/iwamasa/articles/a14db17f8ce5ea)
-  - Pokemo APIの基本的な利用方法を参考にした。TypeScriptで書かれているので、JavaScriptへの変換に苦労した。(将来的には、TypeScriptも描けるようになりたい)
+  - Pokemo APIの基本的な利用方法を参考にした。TypeScriptで書かれているので、JavaScriptへの変換に苦労した。(将来的には、TypeScriptも書けるようになりたい)
 - [JavascriptのFetch APIを使ってJSONを取得する。 - Qiita](https://qiita.com/tarch710/items/91b8abc124a7efbc7a93)
   - 上述の通り、TypeScriptのコードをコピペするだけでは自分のJavaScriptコードで動かなかった。そのため、APIを叩く方法をこの記事から学んだ。
 - [HTMLとJavaScriptの連携 - Qiita](https://qiita.com/Teach/items/4b0104847be9f2960665)
